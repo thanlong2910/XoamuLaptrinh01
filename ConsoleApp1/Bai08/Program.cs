@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Bai08
 {
     //Câu 8: Viết chương trình nhập 4 số a, b, c, d. 
-    //In ra là DUNG nếu chỉ tồn tại 1 số trong 3 số có giá trị là 10. 
+    //In ra là DUNG nếu chỉ tồn tại 1 số trong 4 số có giá trị là 10. 
     //Ngược lại thì in ra SAI.
 
     class Program

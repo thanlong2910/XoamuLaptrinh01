@@ -4,70 +4,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bai02
+namespace Bai01
 {
-    // DE BAI:
-    //Câu 2: Nhập a, b và c.Tìm số lớn nhất
-    //******************************************
-
-    class MaxNumberClass
-    {
-        private int firstNumber, secondNumber, thirdNumber;
-
-        // Constructor method
-        public MaxNumberClass(int tempFirstNumber, int tempSecondNumber, int tempThirdNumber)
-        {
-            this.firstNumber = tempFirstNumber;
-            this.secondNumber = tempSecondNumber;
-            this.thirdNumber = tempThirdNumber;
-        }
-
-        // Ham tim so lon nhat
-        public void MaxNumber()
-        {
-            int maxNumber = firstNumber;
-
-            if (maxNumber < secondNumber)
-            {
-                maxNumber = secondNumber;
-            }
-            else if (maxNumber < thirdNumber)
-            {
-                maxNumber = thirdNumber;
-            }
-
-            Console.WriteLine("So lon nhat la: {0}", maxNumber);
-        }
-    }
+    //Tính S(n) = 1 + 2 + 3 + ... + n. (n > 0)
 
     class Program
     {
         static void Main(string[] args)
         {
-            int firstNumber, secondNumber, thirdNumber;
+            int n;
+            int sum = 0;
 
-            // Nhap 3 so:
-            Console.WriteLine("Nhap so thu nhat: ");
-            firstNumber = SetIntegerNumber();
-            Console.WriteLine("Nhap so thu hai: ");
-            secondNumber = SetIntegerNumber();
-            Console.WriteLine("Nhap so thu ba: ");
-            thirdNumber = SetIntegerNumber();
+            // Nhap so:
+            Console.WriteLine("Nhap so n: ");
+            n = SetIntegerNumber();
 
-            // Khoi tao doi tuong cua Class Tim so lon nhat
-            MaxNumberClass maxNumberClass = new MaxNumberClass(firstNumber, secondNumber, thirdNumber);
-            maxNumberClass.MaxNumber();
+            // In ra man hinh TONG CAN TINH
+            string array = "";
+            for (int i = 1; i < n; i++)
+            {
+                array += i + " " + "+" + " ";
+            }
+            Console.WriteLine();
+            Console.WriteLine("**************************");
+            Console.WriteLine("Tinh Tong:");
+            Console.WriteLine(array + n);
 
+            // TINH TONG
+            for (int i = 1; i <= n; i++)
+            {
+                sum += i;
+            }
+
+            Console.WriteLine("Tong = {0}", sum);
             Console.ReadLine();
-
         }
 
-        // Ham Nhap 1 so nguyen tu ban phim
+        // Ham nhap so nguyen
         static int SetIntegerNumber()
         {
             int number;
             number = int.Parse(Console.ReadLine());
             return number;
         }
+
     }
 }

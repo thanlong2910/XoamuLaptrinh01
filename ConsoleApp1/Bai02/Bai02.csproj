@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95C016AA-2F79-4E45-BE45-2976F71E28D2}</ProjectGuid>
+    <ProjectGuid>{7F525E73-C53F-4182-B192-ACB219FF90E7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Bai01</RootNamespace>
-    <AssemblyName>Bai01</AssemblyName>
+    <RootNamespace>Bai02</RootNamespace>
+    <AssemblyName>Bai02</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
