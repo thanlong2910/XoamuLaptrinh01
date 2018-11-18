@@ -146,6 +146,5 @@ namespace Bai08
             firstNum = secondNum;
             secondNum = temp;
         }
-
     }
 }
