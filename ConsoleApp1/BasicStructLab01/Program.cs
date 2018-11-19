@@ -40,6 +40,10 @@ namespace BasicStructLab01
         string hoten;
         Diem diem;
         string xeploai;
+
+        // Constructor
+
+        // Display Informaton of Sinhvien
     }
 
     struct Diem
@@ -50,6 +54,11 @@ namespace BasicStructLab01
         double diemVatlyKT;
         double diemAnhvan;
         double diemTrungbinh;
+
+        // Constructor
+
+        // Display Informaton of Diem
+
     }
 
     struct Monhoc
@@ -58,6 +67,24 @@ namespace BasicStructLab01
         string tenMonhoc;
         int soTinchi;
         double diem;
+
+        // Constructor
+        public Monhoc(string tempMaMonhoc, string tempTenMonhoc, int tempSoTinchi, double tempDiem)
+        {
+            maMonhoc = tempMaMonhoc;
+            tenMonhoc = tempTenMonhoc;
+            soTinchi = tempSoTinchi;
+            diem = tempDiem;
+        }
+
+        // Display information of Monhoc
+        public void DisplayMonhocInfo()
+        {
+            Console.WriteLine("Ma Mon hoc:  {0}", maMonhoc);
+            Console.WriteLine("Ten Mon hoc: {0}", tenMonhoc);
+            Console.WriteLine("So Tin chi:  {0}", soTinchi);
+            Console.WriteLine("Diem: {0}", diem);
+        }
     }
 
     class Program
