@@ -12,6 +12,10 @@ namespace Bai17
     {
         static void Main(string[] args)
         {
+            // Hiển thị tiếng Việt trên console
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            // In đề bài
             Console.WriteLine("VIẾT CHƯƠNG TRÌNH TÍNH: S(x, n) = 1 + x + x^3/3! + x^5/5! + ... + x^(2n + 1)/(2n + 1)!");
             Console.WriteLine("***********************************************************************");
             Console.WriteLine("");

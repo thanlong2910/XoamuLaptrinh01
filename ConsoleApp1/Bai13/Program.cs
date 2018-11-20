@@ -12,6 +12,9 @@ namespace Bai13
     {
         static void Main(string[] args)
         {
+            // Hiển thị tiếng Việt trên console
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             // Nhập số nguyên inputNumber
             int inputNumber;
             Console.WriteLine("Nhập số nguyên: ");
