@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bai20
 {
-    // Viết chương trình nhập số nguyên dương n, liệt kê chữ số lẽ của n.
+    // Viết chương trình nhập số nguyên dương n, liệt kê chữ số lẻ của n.
     class Program
     {
         static void Main(string[] args)
