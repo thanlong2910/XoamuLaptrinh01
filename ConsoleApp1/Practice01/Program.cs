@@ -23,41 +23,26 @@ namespace Practice01
             // Hiển thị tiếng Việt trên console
             Console.OutputEncoding = Encoding.UTF8;
 
-            // In đề bài
-            Console.WriteLine("ĐỀ BÀI:");
-            Console.WriteLine("Có n người xếp hàng 1 để mua hàng");
-            Console.WriteLine("Thời gian người bán hàng phục vụ khách thứ i là t[i] phút (i= 1,2,3...n)");
-            Console.WriteLine("Yêu cầu:");
-            Console.WriteLine("Dữ liệu vào nhập từ bàn phím: n (n<= 32000)");
-            Console.WriteLine("Các giá trị t[i] (t[i] <=3600)");
-            Console.WriteLine("Số k(k<=n) thứ tự người khách cần xác định thời gian chờ");
-            Console.WriteLine("-----------------");
-            Console.WriteLine("Kết quả:");
-            Console.WriteLine("Thời gian khách hàng được phục vụ nhanh nhất (t[i] nhỏ nhất, ghi rõ là khách hàng thứ mấy)");
-            Console.WriteLine("Thời gian khách hàng được phục vụ chậm nhất (t[i] lớn nhất, ghi rõ là khách hàng thứ mấy)");
-            Console.WriteLine("***********************************************************************");
-            Console.WriteLine("");
-
-            // Nhập số nguyên - n
             int inputNumber;
-            Console.WriteLine("Nhập số khách hàng n: ");
+            
+            // In đề bài
+            
+            // Nhập số nguyên
+            Console.WriteLine("Nhập số khách hàng: ");
             inputNumber = SetIntegerNumber();
-
+            // Nhập thời gian đợi
             int[] waitingTime = new int[inputNumber];
-
-            // Nhap thoi gian cho doi
             GetArray(inputNumber, waitingTime);
-            Console.WriteLine("-----------------------");
 
-            // Hien thi thoi gian cho doi
+            // Hiển thị thời gian đợi
             DisplayArray(inputNumber, waitingTime);
             Console.WriteLine("-----------------------");
 
             // Hien thi ket qua khach hàng doi lau nhat, bao lau
             MaxTime(inputNumber, waitingTime);
-
             // Hien thi ket qua khach hàng doi it nhat, bao lau
             MinTime(inputNumber, waitingTime);
+
 
             Console.ReadLine();
         }
@@ -69,14 +54,14 @@ namespace Practice01
             number = int.Parse(Console.ReadLine());
             return number;
         }
-        
+
         // Ham Nhap mang Customer[i], thoi gian cho  waitingTime[i]
         static void GetArray(int n, int[] waitingTime)
         {
             Console.WriteLine("Nhap thoi gian cho: ");
             for (int i = 0; i < n; i++)
             {
-                Console.Write("Thoi gian khach hàng {0} cho: ", i+1);
+                Console.Write("Thoi gian khach hàng {0} cho: ", i + 1);
                 waitingTime[i] = SetIntegerNumber();
             }
         }
@@ -86,7 +71,7 @@ namespace Practice01
         {
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("Khach hàng {0} cho {1} (phut)", i+1, waitingTime[i]);
+                Console.WriteLine("Khach hàng {0} cho {1} (phut)", i + 1, waitingTime[i]);
             }
         }
 
