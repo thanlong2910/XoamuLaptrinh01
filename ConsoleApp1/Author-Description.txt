@@ -1,0 +1,45 @@
+﻿Projects:
+
+1. Bài 01: Tính S(n) = 1 + 2 + 3 + ... + n. (n > 0).
+2. Bài 02: Nhập a, b và c.Tìm số lớn nhất.
+3. Bài 03: Nhập a, b và c.Tìm số lớn thứ nhì.
+4. Bài 04: Tìm nghiệm phtrinh bậc nhất.  a*x + b = 0.
+5. Bài 05: Tìm nghiệm ptrinh bậc 2.
+6. Bài 06: Viết chương trình xếp hạng học lực. 
+    // < 5 ==> không đạt, 6,5 <= và <=7,9 ==> Khá, >=8 ==> Giỏi.
+7. Bài 07: Viết chương trình nhập 3 số a, b, c. 
+    //In ra là DUNG nếu chỉ tồn tại 1 số trong 3 số có giá trị là 10. 
+    //Ngược lại thì in ra SAI.
+8. Bài 08: Nhap 4 so // Sap xep theo thu tu giam dan.
+9. Bài 09: Viết chương trình nhập 3 số a, b, c. Tính tổng các số lẻ và in ra màn hình.
+10. Bài 10: Viết chương trình nhập vào lương trước thuế của một nhân viên.
+    // Cho biết lương sau thuế của nhân viên đó. Biết:
+    //- 35% thuế thu nhập nếu lương là 15 triệu
+    //- 21% thuế thu nhập nếu lương từ 7 đến 15 triệu
+    //- 11% thuế thu nhập nếu lương dưới 7 triệu.
+11. Bài 11: Viết chương trình tính T(n) = 1 * 2 * 3 * .. * n.
+12. Bài 12: Viết chương trình tính S(n) = 1 + 1/2 + 1/3 + 1/4 + ... + 1/n (n > 0).
+13. Bài 13: Tính S(n) = 1 / 1 * 2 + 1 / 2 * 3 + ... + 1 / n * (n + 1) (với n > 0).
+14. Bài 14: Viết chương trình tính: T(x, n) = x ^ n.
+15. Bài 15: Tính S(x, n) = x + x^2 + x^3 + ... + x^n.
+16. Bài 16: Viết S(x, n) = 1 + x^2/2! + x^4/4! + ... + x^2n/(2n)!.
+17. Bài 17: Tính S(x, n) = 1 + x + x^3/3! + x^5/5! + ... + x^(2n + 1)/(2n + 1)!.
+18. Bài 18: Viết chương trình nhập và đếm số lượng chữ số của số nguyên dương n.
+19. Bài 19: Viết chương trình nhập n và tìm chữ số lớn nhất của n. Ví dụ: 4665789 => chữ số lớn nhất 9.
+20. Bài 20: Viết chương trình nhập số nguyên dương n, liệt kê chữ số lẻ của n.
+21. Bài 21: Viết chương trình in ra tam giác cân có độ cao h. Và in ra tam giác.
+22. Bài 22: Viết chương trình in bảng cửu chương ra màn hình.
+23. Bài 23: Cần có tổng 200.000đ từ 3 loại giấy bạc 1000đ, 2000đ, và 5000đ. 
+    // Lập chương trình để tìm tất cả các phương án có thể.
+24. Bài 24: Viết chương trình nhập tháng, năm. Hãy cho biết tháng đó có bao nhiêu ngày.
+25. Bài 25: Viết chương trình In ra tất cả các số lẻ nhỏ hơn 100 trừ các số 15, 47, 29.
+26. Bài 26: Tìm ước số chung lớn nhất của 2 số a, b.
+27. Bài 27: Tìm số nguyên dương n nhỏ nhất sao cho 1 + 2 + ... + n > 10000.
+28. Bài 28: Viết chương trình nhập n là số thập phân(n <= 255), n sang số nhị phân có 8 chữ số.
+    // Ví dụ: 
+    // 1 = 00000001
+    // 10 = 00001010
+    // 255 = 11111111.
+
+
+
