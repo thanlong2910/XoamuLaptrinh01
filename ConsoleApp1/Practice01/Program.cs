@@ -32,16 +32,16 @@ namespace Practice01
             inputNumber = SetIntegerNumber();
             // Nhập thời gian đợi
             int[] waitingTime = new int[inputNumber];
-            GetArray(inputNumber, waitingTime);
+            GetArray(waitingTime);
 
             // Hiển thị thời gian đợi
-            DisplayArray(inputNumber, waitingTime);
+            DisplayArray(waitingTime);
             Console.WriteLine("-----------------------");
 
             // Hien thi ket qua khach hàng doi lau nhat, bao lau
-            MaxTime(inputNumber, waitingTime);
+            MaxElementOfArray(waitingTime);
             // Hien thi ket qua khach hàng doi it nhat, bao lau
-            MinTime(inputNumber, waitingTime);
+            MinElementOfArray(waitingTime);
 
 
             Console.ReadLine();
@@ -55,60 +55,60 @@ namespace Practice01
             return number;
         }
 
-        // Ham Nhap mang Customer[i], thoi gian cho  waitingTime[i]
-        static void GetArray(int n, int[] waitingTime)
+        // Hàm nhập mảng GetArray
+        static void GetArray(int[] waitingTime)
         {
             Console.WriteLine("Nhap thoi gian cho: ");
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < waitingTime.Length; i++)
             {
                 Console.Write("Thoi gian khach hàng {0} cho: ", i + 1);
                 waitingTime[i] = SetIntegerNumber();
             }
         }
 
-        // Ham Hien thi thoi gian cho tuong ung
-        static void DisplayArray(int n, int[] waitingTime)
+        // Hàm Hiển thị mảng DisplayArray
+        static void DisplayArray(int[] waitingTime)
         {
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < waitingTime.Length; i++)
             {
                 Console.WriteLine("Khach hàng {0} cho {1} (phut)", i + 1, waitingTime[i]);
             }
         }
 
-        // Ham tim thoi gian lon nhat
-        static void MaxTime(int n, int[] waitingTime)
+        // Hàm tìm phần tử lớn nhất của mảng
+        static void MaxElementOfArray(int[] arr)
         {
-            int max = waitingTime[0];
+            int max = arr[0];
             int index = 0;
 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (max < waitingTime[i])
+                if (max < arr[i])
                 {
-                    max = waitingTime[i];
+                    max = arr[i];
                     index = i;
                 }
             }
 
-            Console.WriteLine("Khach hàng {0} doi lau nhat, tong cong {1} phut", index + 1, waitingTime[index]);
+            Console.WriteLine("Khach hàng {0} doi lau nhat, tong cong {1} phut", index + 1, arr[index]);
         }
 
-        // Ham tim thoi gian nho nhat
-        static void MinTime(int n, int[] waitingTime)
+        // Hàm tìm phần tử nhỏ nhất của mảng
+        static void MinElementOfArray(int[] arr)
         {
-            int min = waitingTime[0];
+            int min = arr[0];
             int index = 0;
 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (min > waitingTime[i])
+                if (min > arr[i])
                 {
-                    min = waitingTime[i];
+                    min = arr[i];
                     index = i;
                 }
             }
 
-            Console.WriteLine("Khach hàng {0} doi it nhat, tong cong {1} phut", index + 1, waitingTime[index]);
+            Console.WriteLine("Khach hàng {0} doi it nhat, tong cong {1} phut", index + 1, arr[index]);
         }
     }
 }

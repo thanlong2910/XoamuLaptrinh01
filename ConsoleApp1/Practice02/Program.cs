@@ -9,6 +9,7 @@ namespace Practice02
     //1.Nhập vào mảng một chiều các số nguyên gồm n phần tử
     //2.Kiem tra mảng có tồn tại số nguyên tố hay không.
     //3.Sắp xếp mảng tăng dần theo giá trị tuyệt đối của các phần tử.Xuất mảng sau khi sắp xếp ra màn hình.
+
     class Program
     {
         static void Main(string[] args)
@@ -141,8 +142,6 @@ namespace Practice02
                     break;
                 }
             }
-            
-            
         }
 
         // Hàm đảo 2 số nguyên

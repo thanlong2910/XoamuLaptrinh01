@@ -1,0 +1,32 @@
+﻿Basic OOP
+
+
+Cơ bản - Tham khảo:
+1. 	// ĐỀ
+	// Ứng dụng kỹ thuật lập trình hướng đối tượng để:
+	// Tính diện tích và chu vi của một hình chữ nhật với việc nhập dữ liệu từ bàn phím
+
+	LỜI GIẢI
+	// Hàm nhập dữ liệu double
+	// Hàm tính chu vi hình chữ nhật
+	// Hàm tính diện tích hình chữ nhật
+
+2. // ĐỀ
+	// Ứng dụng kỹ thuật lập trình hướng đối tượng để:
+	// Hiện thị lên màn hình tài khảm gồm các thông tin:
+	// Chủ tài khoản / số tài khoản / số dư
+
+	LỜI GIẢI
+	-  Hàm Nhập tên chủ tài khoản - Check điều kiện (string) - Trả về chuỗi viết hoa đầu từ Capitalize
+	- Hàm nhập số tài khoản: check double > 0
+	- Hàm nhập số dư Check double > 0
+	- Hiển thị thông tin
+
+3. ĐỀ:
+	- Xây dựng lịch dương cho 1 năm bất kỳ, hiện thị lên màn hình theo dạng sau
+	Tháng 1
+	CN Thứ 2 Thứ 3 Thứ 4 Thứ 5 Thứ 6 Thứ 7
+	1 2 3 4 5 6 7
+	8 9 10 ...
+
+

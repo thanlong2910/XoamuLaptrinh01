@@ -1,0 +1,37 @@
+﻿1. Practice01
+	//ĐỀ BÀI:
+    //Có n người xếp hàng 1 để mua hàng, thời gian người bán hàng phục vụ khách thứ i là t[i] phút (i= 1,2,3...n)
+    //Yêu cầu:
+    //Dữ liệu vào nhập từ bàn phím: n (n<= 32000)
+    //Các giá trị t[i] (t[i] <=3600) 
+    //Số k(k<=n) thứ tự người khách cần xác định thời gian chờ
+    //Kết quả:
+    //Thời gian khách hàng được phục vụ nhanh nhất (t[i] nhỏ nhất, ghi rõ là khách hàng thứ mấy)
+    //Thời gian khách hàng được phục vụ chậm nhất (t[i] lớn nhất, ghi rõ là khách hàng thứ mấy)
+
+	Lời giải:
+	// Hàm nhập số nguyên
+	// Hàm nhập mảng GetArray
+	// Hàm Hiển thị mảng DisplayArray
+	// Hàm tìm phần tử lớn nhất của mảng
+	// Hàm tìm phần tử nhỏ nhất của mảng
+	
+2. Practice02
+	// ĐỀ BÀI:
+	//1.Nhập vào mảng một chiều các số nguyên gồm n phần tử
+    //2.Kiem tra mảng có tồn tại số nguyên tố hay không.
+    //3.Sắp xếp mảng tăng dần theo giá trị tuyệt đối của các phần tử.Xuất mảng sau khi sắp xếp ra màn hình.
+
+	Lời giải:
+	// Hàm nhập số nguyên
+	// Hàm nhập mảng
+	// Hàm hiển thị mảng
+    // Hàm kiểm tra số nguyên tố
+	// Hàm kiểm tra phần tử số nguyên tố trong dãy
+	// Hàm sắp xếp mảng tăng dần theo giá trị tuyệt đối
+	// Hàm đảo 2 số nguyên
+
+3. 
+
+
+
