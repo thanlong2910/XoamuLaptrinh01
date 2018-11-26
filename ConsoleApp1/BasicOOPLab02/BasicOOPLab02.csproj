@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A3E3670-61B7-4F8B-947D-C6B2FB1A2B8D}</ProjectGuid>
+    <ProjectGuid>{C1B87D6B-EFD6-4006-9F23-3A2BA9E7A92D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BasicArrayLab01</RootNamespace>
-    <AssemblyName>BasicArrayLab01</AssemblyName>
+    <RootNamespace>BasicOOPLab02</RootNamespace>
+    <AssemblyName>BasicOOPLab02</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicArrayMainProgram.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
