@@ -104,6 +104,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOOPLab02", "BasicOOPLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{500A1E09-15E3-4C87-9580-7A60A0B10A72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice03", "Practice03\Practice03.csproj", "{FC45A47D-48DF-4600-9B37-61BFD4A7C5C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -298,6 +300,10 @@ Global
 		{500A1E09-15E3-4C87-9580-7A60A0B10A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{500A1E09-15E3-4C87-9580-7A60A0B10A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{500A1E09-15E3-4C87-9580-7A60A0B10A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC45A47D-48DF-4600-9B37-61BFD4A7C5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC45A47D-48DF-4600-9B37-61BFD4A7C5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC45A47D-48DF-4600-9B37-61BFD4A7C5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC45A47D-48DF-4600-9B37-61BFD4A7C5C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
