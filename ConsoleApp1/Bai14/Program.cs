@@ -16,53 +16,50 @@ namespace Bai14
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             // In đề bài
-            Console.WriteLine("VIẾT CHƯƠNG TRÌNH TÍNH: T(x,n) = x^n");
-            Console.WriteLine("************************************");
+            Console.WriteLine("======================= ĐỀ BÀI ==============================");
+            Console.WriteLine("|| SỬ DỤNG VÒNG LẶP, VIẾT CHƯƠNG TRÌNH TÍNH: T(x,n) = x^n  ||");
+            Console.WriteLine("||               Với x, n nguyên                           ||");
+            Console.WriteLine("=============================================================");
             Console.WriteLine("");
 
-            // Nhập số thực - cơ số
-            double inputNumberBase;
-            Console.WriteLine("Nhập số thực cơ số: ");
-            inputNumberBase = SetDoubleNumber();
+            // ============== Nhập số nguyên - cơ số ================
+            int inputNumberBase;
+            Console.WriteLine("Nhập số nguyên cơ số: ");
+            inputNumberBase = SetIntegerNumber();
 
-            // Nhập số thực - lũy thừa
-            double inputNumberExponent;
-            Console.WriteLine("Nhập số thực mũ: ");
-            inputNumberExponent = SetDoubleNumber();
+            // =============== Nhập số nguyên - lũy thừa ============
+            int inputNumberExponent;
+            Console.WriteLine("Nhập số nguyên mũ: ");
+            inputNumberExponent = SetIntegerNumber();
             
+            // ================ In ra các số đã nhập ==============
             Console.WriteLine("Input Base: x = {0}", inputNumberBase);
             Console.WriteLine("Input Exponent: n = {0}", inputNumberExponent);
 
-            // In ra dòng: x ^ n
-            double result;
+            // ================= In ra kết quả: x ^ n =============
+            int result;
             result = CountExponent(inputNumberBase, inputNumberExponent);
             Console.WriteLine("{0}^{1} = {2}", inputNumberBase, inputNumberExponent, result);
             
             Console.ReadLine();
         }
 
-        //// Hàm nhập số nguyên
-        //static int SetIntegerNumber()
-        //{
-        //    int number;
-        //    number = int.Parse(Console.ReadLine());
-        //    return number;
-        //}
-
-        // Hàm nhập số thực
-        static double SetDoubleNumber()
+        // ========== Hàm nhập số nguyên ==========================
+        static int SetIntegerNumber()
         {
-            double number;
-            number = double.Parse(Console.ReadLine());
+            int number;
+            number = int.Parse(Console.ReadLine());
             return number;
         }
 
-        // Hàm tính lũy thừa
-        static double CountExponent(double x, double n)
+        // ============ Hàm tính lũy thừa =========================
+        static int CountExponent(int x, int n)
         {
-            double result;
-
-            result = Math.Pow(x, n);
+            int result = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                result = result * x;
+            }
 
             return result;
         }
