@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practice05
 {
+    // === ĐỀ BÀI ===
+    // Đếm số phần tử lớn nhất
+
     class Program
     {
         static void Main(string[] args)
@@ -33,7 +36,6 @@ namespace Practice05
                     max = array[i];
                     count = 1;
                 }
-                          
             }
 
             // In kết quả
